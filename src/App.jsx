@@ -1,7 +1,11 @@
 import React from "react";
 
 const App = () => {
-  return <div>Hello World</div>;
+  return (
+    <h1 data-cy="title">
+     Conway's Game of Life
+    </h1>
+  );
 };
 
 export default App;
