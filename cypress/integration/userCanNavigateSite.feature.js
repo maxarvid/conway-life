@@ -17,6 +17,6 @@ describe("User can navigate the app", () => {
 
   it("is expected to render an about modal when about button is clicked", () => {
     cy.get("[data-cy=about-btn]").click();
-    cy.get("[data-cy=about").should("contain.text", "Here is an explanation");
+    cy.get("[data-cy=about]").should("contain.text", "Here is an explanation");
   });
 });
